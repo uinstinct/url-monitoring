@@ -4,10 +4,3 @@ compatibility_date = "2024-05-01"
 
 [build]
 command = "npm run build"
-
-[[triggers]]
-cron = "*/5 * * * *"  # every 5 minutes for health checks
-
-[vars]
-DATABASE_URL = "YOUR_SUPABASE_OR_NEON_DB_URL"
-JWT_SECRET = "your_jwt_secret"

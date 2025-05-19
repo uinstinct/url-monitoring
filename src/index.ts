@@ -33,5 +33,7 @@ app.use('/results', authMiddleware);
 app.route('/urls', urlRoutes);
 app.route('/results', resultRoutes);
 
-serve(app);
+app.fire()
+
+export default app;
 

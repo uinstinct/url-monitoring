@@ -22,4 +22,7 @@ import { serve } from '@hono/node-server'
 const app = new Hono()
 app.get('/', (c) => c.text('Hello'))
 
-serve(app)
+// serve(app)
+app.fire()
+
+export default app

@@ -4,7 +4,7 @@ import 'dotenv/config'; // load .env
 import { drizzle } from 'drizzle-orm/postgres-js';
 import postgres from 'postgres';
 
-import { schema } from '../../drizzle/schema'; // adjust the path as needed
+import { schema } from '../drizzle/schema'; // adjust the path as needed
 
 
 

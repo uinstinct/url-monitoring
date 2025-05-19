@@ -2,7 +2,7 @@ import { Hono } from 'hono';
 import { z } from 'zod';
 import bcrypt from 'bcrypt';
 import { db } from '../utils/db';
-import { users } from '../../drizzle/schema';
+import { users } from '../drizzle/schema';
 import { sql } from 'drizzle-orm';
 import { sign } from 'hono/jwt';
 

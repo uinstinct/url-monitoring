@@ -3,8 +3,8 @@ import type { Config } from 'drizzle-kit';
 
 // export default {
 const config = {
-  schema: './drizzle/schema.ts',
-  out: './drizzle/migrations',
+  schema: './src/drizzle/schema.ts',
+  out: './src/drizzle/migrations',
   dialect:'postgresql',
   // dialect: 'pg',    
   // driver: 'pg',

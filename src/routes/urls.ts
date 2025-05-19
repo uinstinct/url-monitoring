@@ -4,7 +4,7 @@ import { db } from '../utils/db';
 // import { monitoredUrls } from '../../drizzle/schema';
 import { authMiddleware } from '../middleware/auth';
 import { sql } from 'drizzle-orm';
-import { monitoredUrls, checkResults } from '../../drizzle/schema'; // ✅ Adjust path if needed
+import { monitoredUrls, checkResults } from '../drizzle/schema'; // ✅ Adjust path if needed
 import { and, eq } from 'drizzle-orm';
 
 const urlRoutes = new Hono();

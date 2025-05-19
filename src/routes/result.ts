@@ -3,7 +3,7 @@
 import { Hono } from 'hono';
 import { z } from 'zod';
 import { db } from '../utils/db';
-import { checkResults, monitoredUrls } from '../../drizzle/schema';
+import { checkResults, monitoredUrls } from '../drizzle/schema';
 import { authMiddleware } from '../middleware/auth';
 import { eq, sql } from 'drizzle-orm';
 
